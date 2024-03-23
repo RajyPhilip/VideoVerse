@@ -1,6 +1,6 @@
 import React, { useContext } from "react";
 import "./PlaylistCard.scss";
-import { VideoPlayerContext } from "../Context/PlayListContext";
+import { VideoPlayerContext } from "../../context/PlayListContext";
 
 const PlaylistCard = ({ videoDetails, index }) => {
   const { onSelectIndex, currentId } = useContext(VideoPlayerContext);
@@ -16,7 +16,8 @@ const PlaylistCard = ({ videoDetails, index }) => {
         <div className="playlist-card-img-container flex-row justify-content-center px-10 border-box">
           <img
             className="playlistCard-thumbnail"
-            src="https://plus.unsplash.com/premium_photo-1682145358254-56e9ab8049ca?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHx0b3BpYy1mZWVkfDMyfGFldTZyTC1qNmV3fHxlbnwwfHx8fHw%3D"
+            src={videoDetails.thumb}
+            loading="lazy"
             alt="thumbnail"
           />
         </div>

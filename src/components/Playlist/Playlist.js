@@ -2,7 +2,7 @@ import React, { useContext, useEffect, useState } from "react";
 import "./Playlist.scss";
 import { DragDropContext, Droppable, Draggable } from "@hello-pangea/dnd";
 import PlaylistCard from "../PlaylistCard/PlaylistCard";
-import { VideoPlayerContext } from "../Context/PlayListContext";
+import { VideoPlayerContext } from "../../context/PlayListContext";
 
 const Playlist = () => {
   const { videos, currentId, updateVideoTime } = useContext(VideoPlayerContext);

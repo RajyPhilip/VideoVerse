@@ -1,7 +1,7 @@
 import React, { useRef, useState, useEffect, useContext } from "react";
 import "./VideoPlayer.scss";
-import { VideoPlayerContext } from "../Context/PlayListContext";
-import { SPEED_OPTIONS } from "../VideoPlayerConstants/VideoPlayerConstants";
+import { VideoPlayerContext } from "../../context/PlayListContext";
+import { SPEED_OPTIONS } from "../../constants/VideoPlayerConstants";
 
 function VideoPlayer() {
   const videoRef = useRef(null);

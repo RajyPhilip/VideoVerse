@@ -2,8 +2,8 @@ import VideoPlayer from "./components/VideoPlayer/VideoPlayer";
 import Playlist from "./components/Playlist/Playlist";
 import VideoDetails from "./components/VideoDetails/VideoDetails";
 import { useState } from "react";
-import { MEDIAJSON } from "./components/VideoPlayerConstants/VideoPlayerConstants";
-import { VideoPlayerContext } from "./components/Context/PlayListContext";
+import { MEDIAJSON } from "./constants/VideoPlayerConstants";
+import { VideoPlayerContext } from "./context/PlayListContext";
 import "./helper_classes.scss";
 import "./App.scss";
 

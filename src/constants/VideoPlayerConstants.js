@@ -8,10 +8,11 @@ export const MEDIAJSON = {
           description:
             "Big Buck Bunny tells the story of a giant rabbit with a heart bigger than himself. When one sunny day three rodents rudely harass him, something snaps... and the rabbit ain't no bunny anymore! In the typical cartoon tradition he prepares the nasty rodents a comical revenge.\n\nLicensed under the Creative Commons Attribution license\nhttp://www.bigbuckbunny.org",
           sources: [
-            "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4",
+            "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4",
           ],
           subtitle: "By Blender Foundation",
-          thumb: "images/BigBuckBunny.jpg",
+          thumb:
+            "https://d2k6zobmg5lufr.cloudfront.net/assets%2F20240323123436-big_buck.webp",
           title: "Big Buck Bunny",
           lastPlayed: 0,
           show: true,
@@ -24,7 +25,8 @@ export const MEDIAJSON = {
             "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerEscapes.mp4",
           ],
           subtitle: "By Google",
-          thumb: "images/ForBiggerEscapes.jpg",
+          thumb:
+            "https://d2k6zobmg5lufr.cloudfront.net/assets%2F20240323123714-bigger+escapes.webp",
           title: "For Bigger Escape",
           lastPlayed: 0,
           show: true,
@@ -37,7 +39,8 @@ export const MEDIAJSON = {
             "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerFun.mp4",
           ],
           subtitle: "By Google",
-          thumb: "images/ForBiggerFun.jpg",
+          thumb:
+            "https://d2k6zobmg5lufr.cloudfront.net/assets%2F20240323123714-bigger+fun.webp",
           title: "For Bigger Fun",
           lastPlayed: 0,
           show: true,
@@ -50,7 +53,8 @@ export const MEDIAJSON = {
             "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerJoyrides.mp4",
           ],
           subtitle: "By Google",
-          thumb: "images/ForBiggerJoyrides.jpg",
+          thumb:
+            "https://d2k6zobmg5lufr.cloudfront.net/assets%2F20240323124851-joyrides.webp",
           title: "For Bigger Joyrides",
           lastPlayed: 0,
           show: true,
@@ -63,7 +67,8 @@ export const MEDIAJSON = {
             "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerMeltdowns.mp4",
           ],
           subtitle: "By Google",
-          thumb: "images/ForBiggerMeltdowns.jpg",
+          thumb:
+            "https://d2k6zobmg5lufr.cloudfront.net/assets%2F20240323124851-ForBiggerMeltdowns.webp",
           title: "For Bigger Meltdowns",
           lastPlayed: 0,
           show: true,
@@ -76,7 +81,8 @@ export const MEDIAJSON = {
             "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/Sintel.mp4",
           ],
           subtitle: "By Blender Foundation",
-          thumb: "images/Sintel.jpg",
+          thumb:
+            "https://d2k6zobmg5lufr.cloudfront.net/assets%2F20240323124948-sintel.webp",
           title: "Sintel",
           lastPlayed: 0,
           show: true,
@@ -102,7 +108,8 @@ export const MEDIAJSON = {
             "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/TearsOfSteel.mp4",
           ],
           subtitle: "By Blender Foundation",
-          thumb: "images/TearsOfSteel.jpg",
+          thumb:
+            "https://d2k6zobmg5lufr.cloudfront.net/assets%2F20240323124851-TearsOfSteel.webp",
           title: "Tears of Steel",
           lastPlayed: 0,
           show: true,
@@ -115,7 +122,8 @@ export const MEDIAJSON = {
             "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/VolkswagenGTIReview.mp4",
           ],
           subtitle: "By Garage419",
-          thumb: "images/VolkswagenGTIReview.jpg",
+          thumb:
+            "https://d2k6zobmg5lufr.cloudfront.net/assets%2F20240323125332-VolkswagenGTIReview.webp",
           title: "Volkswagen GTI Review",
           lastPlayed: 0,
           show: true,
@@ -128,7 +136,8 @@ export const MEDIAJSON = {
             "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/WeAreGoingOnBullrun.mp4",
           ],
           subtitle: "By Garage419",
-          thumb: "images/WeAreGoingOnBullrun.jpg",
+          thumb:
+            "https://d2k6zobmg5lufr.cloudfront.net/assets%2F20240323125253-WeAreGoingOnBullrun.webp",
           title: "We Are Going On Bullrun",
           lastPlayed: 0,
           show: true,
@@ -141,7 +150,8 @@ export const MEDIAJSON = {
             "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/WhatCarCanYouGetForAGrand.mp4",
           ],
           subtitle: "By Garage419",
-          thumb: "images/WhatCarCanYouGetForAGrand.jpg",
+          thumb:
+            "https://d2k6zobmg5lufr.cloudfront.net/assets%2F20240323124851-WhatCarCanYouGetForAGrand.webp",
           title: "What care can you get for a grand?",
           lastPlayed: 0,
           show: true,
@@ -153,7 +163,8 @@ export const MEDIAJSON = {
             "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4",
           ],
           subtitle: "By Blender Foundation",
-          thumb: "images/ElephantsDream.jpg",
+          thumb:
+            "https://d2k6zobmg5lufr.cloudfront.net/assets%2F20240323124851-ElephantsDream.webp",
           title: "Elephant Dream",
           lastPlayed: 0,
           show: true,
@@ -166,7 +177,8 @@ export const MEDIAJSON = {
             "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4",
           ],
           subtitle: "By Google",
-          thumb: "images/ForBiggerBlazes.jpg",
+          thumb:
+            "https://d2k6zobmg5lufr.cloudfront.net/assets%2F20240323124851-ForBiggerBlazes.webp",
           title: "For Bigger Blazes",
           lastPlayed: 0,
           show: true,
