@@ -1,70 +1,63 @@
-# Getting Started with Create React App
+# VideoVerse
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+VideoVerse is your go-to solution for managing your video playlist effortlessly. With VideoVerse, you can enjoy seamless video playback while easily organizing and customizing your playlist to your liking.
 
-## Available Scripts
 
-In the project directory, you can run:
+## 🔗 Hosted Link
 
-### `npm start`
+- check the live web app **[@VideoVerse](https://videoverse.onrender.com/)**
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Performance Reports
 
-### `npm test`
+- [Mobile Lighthouse Report](https://d2k6zobmg5lufr.cloudfront.net/assets%2F20240323132040-mobile_lighthouse_report.pdf)
+- [Desktop Lighthouse Report](https://d2k6zobmg5lufr.cloudfront.net/assets%2F20240323132040-desktop_lighthouse_report.pdf)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Key Features
 
-### `npm run build`
+- **Effortless Playback:** Play, pause, and seek through your videos with ease.
+- **Timely Display:** Keep track of your video's current playback time and duration.
+- **Seamless Transition:** Let autoplay take care of transitioning to the next video seamlessly.
+- **Control at Your Fingertips:** Adjust the playback speed, volume, and even go fullscreen with just a click or a keyboard shortcut.
+- **Playlist Management:** Reorder your playlist by simply dragging and dropping videos.
+- **Responsive Design:** Enjoy a consistent experience across different devices and screen sizes.
+- **Keyboard Shortcuts:** For the keyboard warriors, we've got shortcuts for volume control, playback toggles, and fullscreen mode.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Try It Out
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Local Development
 
-### `npm run eject`
+- **Clone the repository:**  `git clone https://github.com/RajyPhilip/VideoVerse.git`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- **Navigate to the project directory:** `cd VideoVerse`
+ 
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- **Install dependencies:** `npm install`
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
+- **Start the development server:**  `npm start`
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+-  Open your browser and navigate to **http://localhost:3000** to experience VideoVerse firsthand.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-### Analyzing the Bundle Size
+## Let's Get Watching!
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+VideoVerse is designed to make your video playback experience seamless and enjoyable. Dive into your favorite videos and let VideoVerse take care of the rest. Happy watching!
 
-### Making a Progressive Web App
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
-### Advanced Configuration
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## Profile Links
 
-### Deployment
+[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/rajy-philip/)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+[![github](https://img.shields.io/badge/github-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/RajyPhilip)
 
-### `npm run build` fails to minify
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Author
+
+- [@Rajy Philip](https://github.com/RajyPhilip)
