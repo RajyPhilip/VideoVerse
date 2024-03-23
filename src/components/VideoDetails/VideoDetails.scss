@@ -1,0 +1,52 @@
+.video-player-descriptive-box {
+  .thumb-dp {
+    height: 44px;
+    width: 44px;
+    border-radius: 100%;
+  }
+
+  .descriptive-heading {
+    font-size: 20px;
+    font-weight: 700;
+  }
+
+  .descriptive-sub-heading {
+    font-size: 14px;
+    font-weight: 400;
+    color: #777777;
+  }
+  .video-description-box {
+    box-shadow: 0px 0px 6px 0px #0000000d;
+    border: 1px solid #ebebeb;
+    border-radius: 12px;
+    background: rgba(0, 0, 0, 0.05);
+    font-size: 14px;
+    line-height: 16px;
+
+    .about-section-heading {
+      color: #d44242;
+      font-size: 16px;
+      line-height: 14px;
+      font-weight: 500;
+    }
+
+    .more-info-box {
+      .video-source-link {
+        font-size: 12px;
+        align-self: center;
+        color: #5151ec;
+        text-decoration: underline;
+      }
+
+      .description-video-below {
+        color: #4a4a4a;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .video-player-descriptive-box {
+    padding: 8px;
+  }
+}

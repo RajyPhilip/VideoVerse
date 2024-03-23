@@ -1,0 +1,111 @@
+.playlist-content {
+  width: 30%;
+  height: fit-content;
+  padding-top: calc((9 * (70% - 16px) / 16));
+  position: relative;
+  border: 1px solid #e2e2e2;
+  border-radius: 12px;
+
+  .playlist-upper-container {
+    position: absolute;
+    top: 16px;
+    left: 16px;
+    width: calc(100% - 32px);
+
+    .playlist-title {
+      font-size: 20px;
+      line-height: 24px;
+      font-weight: 500;
+      margin: 0px;
+    }
+
+    .playlist-sub-title {
+      font-size: 16px;
+      line-height: 24px;
+      font-weight: 400;
+      color: #989898;
+
+      .playlist-length {
+        font-size: 14px;
+        line-height: 18px;
+        font-weight: 400;
+        color: #8891a3;
+      }
+    }
+
+    .search-bar-container {
+      position: relative;
+      width: 100%;
+
+      .search-icon {
+        position: absolute;
+        left: 8px;
+        top: 8px;
+      }
+
+      .search-input {
+        height: 32px;
+        border-radius: 8px;
+        background-color: #eeeeee;
+        border: none;
+        width: 100%;
+        outline: none;
+      }
+    }
+  }
+
+  .all-playlist-container {
+    height: calc(100% - 16px - 100px);
+    overflow: scroll;
+    margin-top: 60px;
+    position: absolute;
+    top: 60px;
+    left: 0px;
+    width: 100%;
+    padding: 0px;
+  }
+
+  .all-playlist-container::-webkit-scrollbar {
+    width: 2px;
+  }
+
+  .all-playlist-container::-webkit-scrollbar-thumb {
+    background-color: rgb(0, 0, 89);
+    border-radius: 12px;
+    height: 10px;
+  }
+}
+
+@media screen and (max-width: 1040px) {
+  .playlist-content {
+    padding-top: 500px;
+    width: 100%;
+    .playlist-upper-container {
+      .search-bar-container {
+        .search-input {
+          width: 50%;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .playlist-content {
+    margin: 0px 16px;
+    width: calc(100vw - 32px);
+    .playlist-upper-container {
+      left: 8px;
+    }
+    .all-playlist-container {
+      gap: 8px;
+    }
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .playlist-content {
+    margin: 0px 8px;
+    width: calc(100vw - 16px);
+  }
+}
